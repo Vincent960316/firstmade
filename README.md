@@ -7,7 +7,7 @@
 [![Institution](https://img.shields.io/badge/Institution-University%20of%20Taipei%20(UTaipei)-red.svg)](https://www.utaipei.edu.tw/)
 [![Pedagogy](https://img.shields.io/badge/Framework-CLIL%20%7C%20CER%20%7C%20DEAR-orange.svg)](https://github.com/)
 [![Tech](https://img.shields.io/badge/Tech-Python%20%7C%20PyGMT%20%7C%20Colab%20%7C%20GitHub-purple.svg)](https://github.com/)
-[![Style](https://img.shields.io/badge/Web%20UI-Doodle%20Notebook%20Style-yellow.svg)](./2026_Utaipei_Geophysics-main/index.html)
+[![Style](https://img.shields.io/badge/Web%20UI-Doodle%20Notebook%20Style-yellow.svg)](./index.html)
 
 > **課程核心理念 / Core Philosophy**  
 > 「我們用**地球物理**來學習地球，用**英文**來接觸科學，用 **AI** 來協助探索，但最後用**自己的思考**來理解世界。」  
@@ -43,20 +43,19 @@
 
 ---
 
-## 🎨 手繪手帳互動課程網頁亮點 (Interactive Web Experience)
+## 🎨 手繪手帳風格課程指南網頁 (Clean & Fast Web Guide)
 
-本專案附帶完整獨立打造的課程互動網頁 [`2026_Utaipei_Geophysics-main/index.html`](./2026_Utaipei_Geophysics-main/index.html)，採用極具創意的**手繪塗鴉手帳風格（Doodle Notebook Design System）**，包含以下豐富互動機能：
+本專案附帶完整獨立打造的課程指南網頁 [`index.html`](./index.html)，採用極具創意的**手繪塗鴉手帳風格（Doodle Notebook Design System）**，並全面優化為**純粹直覺的快速跳轉導航架構**：
 
-- 📔 **手繪紙本與教室黑板雙主題切換**：內建經典牛皮手帳紙材質與夜間粉筆黑板模式（Chalkboard Mode）。
-- 🔊 **Web Audio 原生手繪音效系統**：翻頁、按鈕點擊與通關打勾皆有逼真粉筆與紙張音效（支援隨時靜音）。
-- 🚀 **第 1 週 8 大通關任務互動勾選清單**：即時掌握學習進度，完成全部 8 項任務時觸發全螢幕彩花慶祝動畫（Confetti Canvas）。
-- 🧮 **互動成績試算器（Grading Calculator）**：滑動期中考、專題實作與平時表現滑桿，即時動態計算學期總成績並給予學習反饋。
-- 🤖 **AI 提問好壞對照實驗室與 AI Log 產生器**：提供「不良提問」與「黃金提問」對照範例，並有一鍵複製標準 AI Interaction Log 模板。
-- 🗣️ **CLIL 科學論述六句組互動複製**：點擊即可複製標準中英雙語科學論述句型。
-- 🎨 **手繪塗鴉互動彩蛋畫布（Doodle Sketchpad）**：支援多色選擇、手繪筆跡儲存與清除。
-- ❓ **便籤問答牆（FAQ Accordion）**：收錄常見英文聽不懂、沒寫過程式、AI 使用界線等新生的疑惑解方。
+- 🧭 **全章節快速跳轉導航系統**：頂部導航列、Hero 快速行動按鈕與懸浮回頂端按鈕，皆採用平滑滾動（Smooth Scrolling）錨點，一秒直達任意章節。
+- 🚀 **第 1 週 8 大通關任務全景清單**：視覺化呈現小組分工、學術誠信、GitHub、Colab、AI 與 CER 任務目標。
+- 🧠 **CER 實戰案例與 DEAR 建模循環直覺展開**：太平洋火環帶、台灣隱沒帶與野外折射震測三大案例完整呈現，無需層層點擊切換。
+- 🤖 **AI 提問好壞對比與標準 Log 格式**：展示伸手牌與引導式 Prompt 差異，提供規範的 Markdown 模板。
+- 🗣️ **CLIL Level 1~8 雙語金句與論文架構**：完整收錄科學論述六句組架構，中英雙語對照一目了然。
+- 🗺️ **18 週學習冒險地圖與評量標準**：詳細展開各週核心技能、理論、野外實作與多元評分比重。
+- 📂 **教材資源庫直達連結**：整合 Marp 簡報、3 小時講稿與 CLIL 附錄之快速開啟連結。
 
-> 💡 **瀏覽方式**：直接雙擊打開 [`2026_Utaipei_Geophysics-main/index.html`](./2026_Utaipei_Geophysics-main/index.html) 或使用 VS Code 的 Live Server 即可體驗。
+> 💡 **瀏覽方式**：直接雙擊打開 [`index.html`](./index.html) 或使用 VS Code 的 Live Server 即可瀏覽。
 
 ---
 
@@ -122,30 +121,27 @@ graph TD
 ```text
 2026_Utaipei_Geophysics-main/
 │
+├── 🌐 index.html                                        # 手繪塗鴉手帳風格全互動課程指南主頁
 ├── 📖 README.md                                          # 專案總導覽與教學資源指南 (本檔案)
 │
-└── 📁 2026_Utaipei_Geophysics-main/                      # 課程核心專案目錄
-    ├── 🌐 index.html                                    # 手繪塗鴉手帳風格全互動課程指南主頁
-    ├── 📖 README.md                                      # 課程詳細指引與學習手冊
-    │
-    └── 📁 2026_Utaipei_Geophysics_0909/                  # 核心教材、講稿與投影片庫
-        ├── 🌐 index.html                                # 課程指南互動網頁備份鏡像
-        ├── 📖 README.md                                  # 第一週課程詳細指引與學習手冊
-        ├── 📑 地球物理通論_第一堂課_PPT詳細版.md           # Marp 格式雙語教學投影片（16:9，1450+ 行）
-        ├── 🎙️ 地球物理通論第一堂課｜3小時中英文對照完整講稿.md# 第一堂課 09:00-12:00 全時段雙語逐字授課講稿
-        ├── 💡 地球物理第一次上課_中英對照講稿.md             # 雙語開場理念與 CER 思考講稿精簡版
-        └── 🗣️ 地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md # CLIL Level 1~8 雙語科學論述句型庫與三例擴充
+└── 📁 2026_Utaipei_Geophysics_0909/                      # 核心教材、講稿與投影片庫
+    ├── 🌐 index.html                                    # 課程指南互動網頁備份鏡像
+    ├── 📖 README.md                                      # 第一週課程詳細指引與學習手冊
+    ├── 📑 地球物理通論_第一堂課_PPT詳細版.md               # Marp 格式雙語教學投影片（16:9，1450+ 行）
+    ├── 🎙️ 地球物理通論第一堂課｜3小時中英文對照完整講稿.md    # 第一堂課 09:00-12:00 全時段雙語逐字授課講稿
+    ├── 💡 地球物理第一次上課_中英對照講稿.md                 # 雙語開場理念與 CER 思考講稿精簡版
+    └── 🗣️ 地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md     # CLIL Level 1~8 雙語科學論述句型庫與三例擴充
 ```
 
 ### 專案重要檔案對照表
 
 | 檔案名稱 | 核心內容與格式 | 適用情境與主要用途 |
 |---|---|---|
-| [`index.html`](./2026_Utaipei_Geophysics-main/index.html) | **手繪手帳互動課程網頁**（純 HTML/CSS/JS，無外部龐大相依） | 學生課堂導航、互動成績試算、通關任務勾選、Prompt 實驗 |
-| [`地球物理通論_第一堂課_PPT詳細版.md`](./2026_Utaipei_Geophysics-main/2026_Utaipei_Geophysics_0909/地球物理通論_第一堂課_PPT詳細版.md) | **Marp 雙語教學投影片**（16:9 比例，包含 18 週地圖與評量標準） | 教師上課簡報、學生課後複習、導出 PDF/HTML 投影片 |
-| [`地球物理通論第一堂課｜3小時中英文對照完整講稿.md`](./2026_Utaipei_Geophysics-main/2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜3小時中英文對照完整講稿.md) | **3 小時全時段雙語逐字講稿**（依時間軸細分 8 大任務與黑板板書） | 授課口播指導、EMI 雙語課堂即時對照、教學觀摩 |
-| [`地球物理第一次上課_中英對照講稿.md`](./2026_Utaipei_Geophysics-main/2026_Utaipei_Geophysics_0909/地球物理第一次上課_中英對照講稿.md) | **開場理念與 CER 思考講稿精簡版**（深入淺出闡述為何用英文學科學） | 學生課前導讀、精簡版開學第一課觀念引導 |
-| [`地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md`](./2026_Utaipei_Geophysics-main/2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md) | **CLIL 雙語句庫手冊**（Level 1~8 階梯句型、每句附 3 個地球物理例句） | 學生撰寫全英/雙語報告、小組討論發言、期末專題發表句型庫 |
+| [`index.html`](./index.html) | **手繪手帳互動課程網頁**（純 HTML/CSS/JS，無外部龐大相依） | 學生課堂導航、互動成績試算、通關任務勾選、Prompt 實驗 |
+| [`地球物理通論_第一堂課_PPT詳細版.md`](./2026_Utaipei_Geophysics_0909/地球物理通論_第一堂課_PPT詳細版.md) | **Marp 雙語教學投影片**（16:9 比例，包含 18 週地圖與評量標準） | 教師上課簡報、學生課後複習、導出 PDF/HTML 投影片 |
+| [`地球物理通論第一堂課｜3小時中英文對照完整講稿.md`](./2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜3小時中英文對照完整講稿.md) | **3 小時全時段雙語逐字講稿**（依時間軸細分 8 大任務與黑板板書） | 授課口播指導、EMI 雙語課堂即時對照、教學觀摩 |
+| [`地球物理第一次上課_中英對照講稿.md`](./2026_Utaipei_Geophysics_0909/地球物理第一次上課_中英對照講稿.md) | **開場理念與 CER 思考講稿精簡版**（深入淺出闡述為何用英文學科學） | 學生課前導讀、精簡版開學第一課觀念引導 |
+| [`地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md`](./2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md) | **CLIL 雙語句庫手冊**（Level 1~8 階梯句型、每句附 3 個地球物理例句） | 學生撰寫全英/雙語報告、小組討論發言、期末專題發表句型庫 |
 
 ---
 
@@ -197,7 +193,7 @@ Week 17-18 ─ 🚌 校外實習考察：國家地震工程研究中心 (NCREE) 
 
 ## 🗣️ CLIL 精選雙語科學思考句庫 (Essential CLIL Sentence Bank)
 
-教材 [`2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md`](./2026_Utaipei_Geophysics-main/2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md) 收錄了由淺入深 8 個等級的科學句型，以下為撰寫作業與口頭報告必備之核心句式：
+教材 [`2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md`](./2026_Utaipei_Geophysics_0909/地球物理通論第一堂課｜CLIL句型與三例擴充附錄.md) 收錄了由淺入深 8 個等級的科學句型，以下為撰寫作業與口頭報告必備之核心句式：
 
 ### 🎯 科學論述六句組 (Six-Sentence Scientific Argument)
 1. **Observation (觀察)**：`We observe that [phenomenon].`（我們觀察到……）
@@ -217,11 +213,11 @@ Week 17-18 ─ 🚌 校外實習考察：國家地震工程研究中心 (NCREE) 
 ## 🛠️ 教材使用與操作指南 (Getting Started & Usage)
 
 ### 1. 預覽與互動學習網頁
-- 專案首頁 [`2026_Utaipei_Geophysics-main/index.html`](./2026_Utaipei_Geophysics-main/index.html) 為純前端網頁，支援各主流現代瀏覽器（Chrome, Edge, Firefox, Safari）。
+- 專案首頁 [`index.html`](./index.html) 為純前端網頁，支援各主流現代瀏覽器（Chrome, Edge, Firefox, Safari）。
 - 無須設定後端伺服器，直接按右鍵「以瀏覽器開啟」即可享受完整互動體驗。
 
 ### 2. 使用 Marp 編輯與播放簡報
-- 教學投影片 [`地球物理通論_第一堂課_PPT詳細版.md`](./2026_Utaipei_Geophysics-main/2026_Utaipei_Geophysics_0909/地球物理通論_第一堂課_PPT詳細版.md) 採用 [Marp Markdown](https://marp.app/) 標準撰寫。
+- 教學投影片 [`地球物理通論_第一堂課_PPT詳細版.md`](./2026_Utaipei_Geophysics_0909/地球物理通論_第一堂課_PPT詳細版.md) 採用 [Marp Markdown](https://marp.app/) 標準撰寫。
 - 在 VS Code 中安裝擴充功能 **Marp for VS Code** (`marp-team.marp-vscode`)。
 - 開啟檔案後點擊右上角 Marp 圖示，可即時全螢幕預覽簡報，或輸出為 **PDF**、**HTML 簡報** 或 **PPTX**。
 
